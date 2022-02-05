@@ -98,7 +98,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPage/IdeaPageImages/ReuseBottlSprinkler.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPage/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>

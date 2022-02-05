@@ -249,7 +249,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <label>Message</label>
         <input class="w3-input w3-border" id = "message" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+      <button type="submit" id = "submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
   <hr>

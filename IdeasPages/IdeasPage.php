@@ -23,8 +23,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
+<<<<<<< HEAD
     <a href = "../home.html" class="w3-grey" title="Return to Home Page">
     <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"><br><br>
+=======
+    <a class="w3-button" href="../home.html"><img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
+>>>>>>> b927998bf86f5fb902d2b2bbab672e8176beff7f
     <h4><b>USERNAME</b></h4>
     <p class="w3-text-grey">Welcome, NAME</p>
   </div>
@@ -244,6 +248,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
+<<<<<<< HEAD
         <input class="w3-input w3-border" type="text" name="first_name" required>
       </div>
       <div class="w3-section">
@@ -253,6 +258,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <div class="w3-section">
         <label>Email</label>
         <input class="w3-input w3-border" type="text" name="email" required>
+=======
+        <input type="text" name="first_name" id="first_name"required>
+      </div>
+      <div class="w3-section">
+        <label>Last Name</label>
+        <input type="text" name="last_name" id="last_name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input type="text" name="email" id="email" required>
+>>>>>>> b927998bf86f5fb902d2b2bbab672e8176beff7f
       </div>
       <div class="w3-section">
         <label>Message</label>

@@ -243,15 +243,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
-        <input type="text" name="first_name" required>
+        <input type="text" name="first_name" id="first_name"required>
       </div>
       <div class="w3-section">
         <label>Last Name</label>
-        <input type="text" name="last_name" required>
+        <input type="text" name="last_name" id="last_name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input type="text" name="email" required>
+        <input type="text" name="email" id="email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>

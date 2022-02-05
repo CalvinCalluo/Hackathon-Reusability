@@ -24,7 +24,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <i class="fa fa-remove"></i>
     </a>
     <a href = "../home.html" class="w3-button" title="Return to Home Page">
-    <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"><br><br>
+    <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
     <h4><b>USERNAME</b></h4>
     <p class="w3-text-grey">Welcome, NAME</p>
   </div>

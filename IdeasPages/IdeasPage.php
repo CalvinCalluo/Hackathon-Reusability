@@ -23,7 +23,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
+<<<<<<< HEAD
+    <a href = "../home.html" class="w3-grey" title="Return to Home Page">
     <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"><br><br>
+=======
+    <a class="w3-button" href="../home.html"><img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
+>>>>>>> b927998bf86f5fb902d2b2bbab672e8176beff7f
     <h4><b>USERNAME</b></h4>
     <p class="w3-text-grey">Welcome, NAME</p>
   </div>
@@ -73,39 +78,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Use candle jars to hold things" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Reuse Candle Jars</b></p>
         <p>Eco Friendly</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Reuse clothes for pillowcase" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Idea3</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
   </div>
-  
+  <br>
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Reuse Bottle as sprinkler" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReusePillBottle.jpg" alt="Reusing Pill Bottle" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
@@ -142,7 +147,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Contact Section -->
   <div class="w3-container w3-padding-large w3-light-green">
     <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+    <form action="IdeasPage.php" target="_blank">
       <div class="w3-section">
         <label>Idea Title</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -162,8 +167,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <br>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Post</button>
     </form>
-  </div>
-    
+</div>
+
+</body>
+</html>
 <!--   <h4>How much I charge: Pricing Tables</h4>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-third w3-margin-bottom">
@@ -238,47 +245,41 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+    <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
-        <input class="w3-input w3-border" id = "first_name" type="text" name="First Name" required>
+<<<<<<< HEAD
+        <input class="w3-input w3-border" type="text" name="first_name" required>
       </div>
       <div class="w3-section">
         <label>Last Name</label>
-        <input class="w3-input w3-border" id = "first_name" type="text" name="Last Name" required>
+        <input class="w3-input w3-border" type="text" name="last_name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" id = "email" type="text" name="Email" required>
+        <input class="w3-input w3-border" type="text" name="email" required>
+=======
+        <input type="text" name="first_name" id="first_name"required>
+      </div>
+      <div class="w3-section">
+        <label>Last Name</label>
+        <input type="text" name="last_name" id="last_name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input type="text" name="email" id="email" required>
+>>>>>>> b927998bf86f5fb902d2b2bbab672e8176beff7f
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" id = "message" type="text" name="Message" required>
+        <br><textarea rows="5" name="message" cols="30" required> </textarea>
       </div>
-      <button type="submit" id = "submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+      <button type="submit" name = "submit" value="Submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
   <hr>
-  
-  <?php 
-if(isset($_POST['submit'])){
-    $to = "sustainabilityreusability@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    header('Location: IdeasPage.php');
-    }
-?>
-
+</body>
+</html>
   <!-- Footer 
   <footer class="w3-container w3-padding-32 w3-green">
   <div class="w3-row-padding">

@@ -87,7 +87,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-  <br>  
+  <br>
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
@@ -98,11 +98,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-<<<<<<< HEAD
-      <img src="/IdeasPage/IdeaPageImages/ReuseBottlSprinkler.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
-=======
       <img src="/IdeasPages/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Reuse Bottle as sprinkler" style="width:100%" class="w3-hover-opacity projectidea">
->>>>>>> 5139b154851e08c3e6e0e205bae73c81e1f8e234
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
@@ -126,6 +122,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="createidea">
+    <div class="w3-col m6">
+      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
     </div>
   </div>
 
@@ -237,19 +243,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
-        First Name: <input type="text" name="first_name" required>
+        <input type="text" name="first_name" required>
       </div>
       <div class="w3-section">
         <label>Last Name</label>
-        Last Name: <input type="text" name="last_name" required>
+        <input type="text" name="last_name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        Email: <input type="text" name="email" required>
+        <input type="text" name="email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        Message:<br><textarea rows="5" name="message" cols="30" required> </textarea>
+        <br><textarea rows="5" name="message" cols="30" required> </textarea>
       </div>
       <button type="submit" name = "submit" value="Submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>

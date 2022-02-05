@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+.projectidea{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -60,21 +66,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPages/IdeaPageImages/ReuseFoodContainer.jpg" alt="Reuse Food Containers" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReuseFoodContainer.jpg" alt="Reuse Food Containers" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Reusing Food Containers</b></p>
         <p>Eco Friendly.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Reuse Candle Jars</b></p>
         <p>Eco Friendly</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Idea3</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>

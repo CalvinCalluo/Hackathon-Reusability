@@ -1,5 +1,3 @@
-
-
 #set of possible materials in all projects
 materials = {'bottle', 'mask'}
 
@@ -21,11 +19,10 @@ class project:
 
 projects = []
 
-projects.append(project(5,['bottle'], 100))
-projects.append(project(2,['bottle', 'mask'], 10))
-
-projects.append(project(5,['mask'], 140)) 
-
+#projects.append(project(5,['bottle'], 100))
+#projects.append(project(2,['bottle', 'mask'], 10))
+#projects.append(project(5,['mask'], 140)) 
+#print(projects)
 def sort(sortType):
     if(sortType == 'difficulty'):
         projects.sort(key = diffSort)
@@ -33,7 +30,7 @@ def sort(sortType):
     elif(sortType == 'materialsNeeded'):
         projects.sort(key = matSort)
     elif(sortType == 'likes'):
-        pass
+        projects.sort(key=likeSort)
 
 def diffSort(project):
     return project.difficulty

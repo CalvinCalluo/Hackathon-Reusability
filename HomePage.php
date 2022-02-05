@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
@@ -386,3 +387,4 @@ function w3_close() {
 
 </body>
 </html>
+?>

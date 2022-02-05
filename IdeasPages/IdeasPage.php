@@ -87,7 +87,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-  <br>  
+  <br>
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
@@ -125,6 +125,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
   </div>
 
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="createidea">
+    <div class="w3-col m6">
+      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h4><b>Create Idea</b></h4>
     <p>Create Your Own Projects Here!</p>
@@ -132,7 +142,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Contact Section -->
   <div class="w3-container w3-padding-large w3-light-green">
     <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+    <form action="IdeasPage.php" target="_blank">
       <div class="w3-section">
         <label>Idea Title</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -152,8 +162,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <br>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Post</button>
     </form>
-  </div>
-    
+</div>
+
+</body>
+</html>
 <!--   <h4>How much I charge: Pricing Tables</h4>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-third w3-margin-bottom">
@@ -228,28 +240,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="action_page.php" method="POST">
+    <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
-        <input class="w3-input w3-border" id = "first_name" type="text" name="First Name" required>
+        <input type="text" name="first_name" required>
       </div>
       <div class="w3-section">
         <label>Last Name</label>
-        <input class="w3-input w3-border" id = "first_name" type="text" name="Last Name" required>
+        <input type="text" name="last_name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" id = "email" type="text" name="Email" required>
+        <input type="text" name="email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" id = "message" type="text" name="Message" required>
+        <br><textarea rows="5" name="message" cols="30" required> </textarea>
       </div>
-      <button type="submit" id = "submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+      <button type="submit" name = "submit" value="Submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
   <hr>
-
+</body>
+</html>
   <!-- Footer 
   <footer class="w3-container w3-padding-32 w3-green">
   <div class="w3-row-padding">

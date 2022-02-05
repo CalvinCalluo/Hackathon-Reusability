@@ -23,6 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
+    <a href = "../home.html" class="w3-grey" title="Return to Home Page">
     <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"><br><br>
     <h4><b>USERNAME</b></h4>
     <p class="w3-text-grey">Welcome, NAME</p>
@@ -243,7 +244,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form action="action_page.php" method = "post">
       <div class="w3-section">
         <label>First Name</label>
-        <input type="text" name="first_name" required>
+        <classinput type="text" name="first_name" required>
       </div>
       <div class="w3-section">
         <label>Last Name</label>

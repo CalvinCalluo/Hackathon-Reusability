@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>Login</title>
+  <title>Log In</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -74,19 +74,28 @@
     </nav>
 
     <div class="w3-container w3-light-grey login-padding" id="login" style="min-height: 100vh;">
-      <h3 class="w3-center">Login</h3>
-      <div class="all-centered" style="margin-top: 49px">
+      <h3 class="w3-center">
+        Login
+      </h3>
+      <div style="margin-top: 2%">
         <form action="/action_page.php" target="_blank">
           <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="25%"></p>
           <p class = "all-centered"><input class="w3-border" type="text" placeholder="Password" required name="Password" size = "25%"></p>
           <p class = "all-centered">
             <button class="w3-button w3-black" type="submit">
-              <i class="fa fa-paper-plane"></i> Login
+              <i class="fa fa-paper-plane"></i> Log In
             </button>
           </p>
         </form>
+         <p class = "all-centered" style = "font-size: 50%">
+          Don't have an account?&#160&#160&#160
+          <a href="https://reusabilitytest.herokuapp.com/signup">
+            <button class="w3-button w3-black" type="submit">
+              <i class="fa fa-paper-plane"></i> Sign Up
+            </button>
+          </a>
+        </p>
       </div>
     </div>
-
   </body>
 </html>

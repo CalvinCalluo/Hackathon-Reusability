@@ -127,11 +127,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   </div>
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <header id="ideapage">  
     <h4><b>Create Idea</b></h4>
     <p>Create Your Own Projects Here!</p>
     <hr>
-    <!-- Contact Section -->
-  <div class="w3-container w3-padding-large w3-light-green">
+    <!-- Create Idea Section -->
+    <div class="w3-container w3-padding-large w3-light-green">
     <hr class="w3-opacity">
     <form action="IdeasPage.php" target="_blank">
       <div class="w3-section">

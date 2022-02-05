@@ -60,16 +60,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="CoatRack.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/ReuseFoodContainer.jpg" alt="Reuse Food Containers" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Idea1</b></p>
+        <p><b>Reusing Food Containers</b></p>
         <p>Eco Friendly.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Idea2</b></p>
+        <p><b>Reuse Candle Jars</b></p>
         <p>Eco Friendly</p>
       </div>
     </div>

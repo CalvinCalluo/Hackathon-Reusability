@@ -1,5 +1,3 @@
-
-
 #set of possible materials in all projects
 materials = {'bottle', 'mask'}
 

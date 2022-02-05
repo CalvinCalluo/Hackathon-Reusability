@@ -226,7 +226,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-gray">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p>sustainability@gmail.com</p>
+        <p>sustainabilityreusability@gmail.com</p>
       </div>
       <div class="w3-third w3-teal">
         <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
@@ -240,21 +240,44 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <hr class="w3-opacity">
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+        <label>First Name</label>
+        <input class="w3-input w3-border" id = "first_name" type="text" name="First Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Last Name</label>
+        <input class="w3-input w3-border" id = "first_name" type="text" name="Last Name" required>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
+        <input class="w3-input w3-border" id = "email" type="text" name="Email" required>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
+        <input class="w3-input w3-border" id = "message" type="text" name="Message" required>
       </div>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
   <hr>
+  
+  <?php 
+if(isset($_POST['submit'])){
+    $to = "sustainabilityreusability@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    header('Location: IdeasPage.php');
+    }
+?>
 
   <!-- Footer 
   <footer class="w3-container w3-padding-32 w3-green">

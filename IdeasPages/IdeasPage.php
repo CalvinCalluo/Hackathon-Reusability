@@ -23,7 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"><br><br>
+    <a href="../home.html"><img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
     <h4><b>USERNAME</b></h4>
     <p class="w3-text-grey">Welcome, NAME</p>
   </div>

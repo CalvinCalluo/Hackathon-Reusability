@@ -87,7 +87,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-  <br>
+  <br>  
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
@@ -126,16 +126,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
-
-  <!-- Images of Me -->
-  <div class="w3-row-padding w3-padding-16" id="createidea">
-    <div class="w3-col m6">
-      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
-    </div>
-    <div class="w3-col m6">
-      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
     </div>
   </div>
 

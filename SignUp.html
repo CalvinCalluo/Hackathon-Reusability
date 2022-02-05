@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <title>Sign Up</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
   <style>
   body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -76,9 +78,9 @@
         Sign Up
       </h3>
       <div style="margin-top: 2%">
-        <form action="/action_page.php" target="_blank">
-          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username" required name="Username" size="25%"></p>
-          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Email" required name="Email" size="25%"></p>
+        <form action="/action_page.php" target="_blank" onsubmit="createAccount()">
+          <p class = "all-centered"><input class="w3-border" id="enteredusername" type="text" placeholder="Username" required name="Username" size="25%"></p>
+          <p class = "all-centered"><input class="w3-border" id="enteredemail" type="text" placeholder="Email" required name="Email" size="25%"></p>
           <p class = "all-centered"><input class="w3-border" id="psw1" type="password" placeholder="Password" required name="Password" size = "25%"></p>
           <p class = "all-centered"><input class="w3-border" id="psw2" type="password" placeholder="Retype Password" required name="Retype Password" size="25%"></p>
           <p class = "all-centered" style = "font-size: 50%"><input type="checkbox" onclick="showPassword()">&#160&#160Show Password</p>
@@ -113,4 +115,18 @@
       x.type = "password";
     }
   }
+  
+  function createAccount(){
+    var firstPsw = document.getElementById("psw1").value;
+    var secondPsw = document.getElementById("psw2").value;
+    var email = document.getElementById("enteredemail").value;
+    var username = document.getElementById("enteredusername").value;
+    if (firstPsw == secondPsw){
+      
+    }else{
+      alert("Passwords do not match");
+    }
+  }
 </script>
+
+

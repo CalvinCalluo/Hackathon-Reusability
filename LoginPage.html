@@ -73,14 +73,15 @@
       <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
 
-    <div class="w3-container w3-light-grey login-padding" id="login" style="min-height: 100vh;">
+    <div class="w3-container w3-light-grey login-padding" id="login" style="min-height: 100vh">
       <h3 class="w3-center">
-        Login
+        Log In
       </h3>
       <div style="margin-top: 2%">
         <form action="/action_page.php" target="_blank">
           <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="25%"></p>
-          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Password" required name="Password" size = "25%"></p>
+          <p class = "all-centered"><input class="w3-border" id="psw1" type="password" placeholder="Password" required name="Password" size = "25%"></p>
+          <p class = "all-centered" style = "font-size: 50%"><input type="checkbox" onclick="showPassword()">&#160&#160Show Password</p>
           <p class = "all-centered">
             <button class="w3-button w3-black" type="submit">
               <i class="fa fa-paper-plane"></i> Log In
@@ -97,3 +98,13 @@
     </div>
   </body>
 </html>
+<script>
+  function showPassword(){
+    var x = document.getElementById("psw1");
+    if (x.type === "password"){
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+</script>

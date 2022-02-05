@@ -11,12 +11,12 @@
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    mail($to,"Form submission", $message, $headers);
+    //mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     //header('Location: IdeasPage.php');
     echo $first_name;
     echo $last_name;
     echo $from;
     echo $to;
-    
+
 ?>

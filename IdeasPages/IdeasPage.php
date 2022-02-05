@@ -228,7 +228,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="action_page.php" target="_blank">
+    <form action="action_page.php" target="POST">
       <div class="w3-section">
         <label>First Name</label>
         <input class="w3-input w3-border" id = "first_name" type="text" name="First Name" required>

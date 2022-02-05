@@ -73,39 +73,43 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Use candle jars to hold things" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Reuse Candle Jars</b></p>
         <p>Eco Friendly</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Reuse clothes for pillowcase" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Idea3</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
   </div>
-  
+  <br>
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
+<<<<<<< HEAD
       <img src="/IdeasPage/IdeaPageImages/ReuseBottlSprinkler.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+=======
+      <img src="/IdeasPages/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Reuse Bottle as sprinkler" style="width:100%" class="w3-hover-opacity projectidea">
+>>>>>>> 5139b154851e08c3e6e0e205bae73c81e1f8e234
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/IdeasPage/IdeaPageImages/ReusePillBottle.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity projectidea">
+      <img src="/IdeasPages/IdeaPageImages/ReusePillBottle.jpg" alt="Reusing Pill Bottle" style="width:100%" class="w3-hover-opacity projectidea">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>

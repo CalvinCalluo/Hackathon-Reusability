@@ -9,16 +9,16 @@ $pdo = new PDO("pgsql:" . sprintf(
     $db["pass"],
     ltrim($db["path"], "/")
 ));
-/*
+
 $username = $_POST['Username'];
 $password = $_POST['Password'];
 $email = $_POST['Email'];
 
-$sql = "INSERT INTO logininfo (username, password, email) VALUES (?, ?, ?)";
-$sql->execute([$username, $password, $email]);
-*/
-
-
+$sql->query("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
+$sql->bind('username', $username);
+$sql->bind('password', $password);
+$sql->bind('email', $email);
+$sql->execute();
 
 
 ?>

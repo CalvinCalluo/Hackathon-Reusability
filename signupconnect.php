@@ -17,6 +17,7 @@ echo 'successful connection';
 
 $sql = $pdo->prepare("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
 $sql->execute(['username' => $username, 'password' => $password, 'email' => $email]);
+header('Location: LoginPage.html');
 /*
 $sql->bind('username', $username);
 $sql->bind('password', $password);

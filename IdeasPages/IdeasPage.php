@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <title>Ideas Page</title>
@@ -26,7 +29,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href = "../home.html" class="w3-button" title="Return to Home Page">
     <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
     <h4><b>USERNAME</b></h4>
-    <p class="w3-text-grey">Welcome, NAME</p>
+    <p class="w3-text-grey" id="welcome-username">Welcome, NAME</p>
   </div>
   <div class="w3-bar-block">
     <a href="#ideapage" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Idea Page</a> 

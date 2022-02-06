@@ -136,22 +136,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Create Idea Section -->
     <div class="w3-container w3-padding-large w3-light-green">
     <hr class="w3-opacity">
-    <form action="IdeasPage.php" target="_blank">
+    <form action="createideaconnect.php" method="POST" target="_blank">
       <div class="w3-section">
         <label>Idea Title</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
+        <input class="w3-input w3-border" type="text" name="Title" required>
       </div>
       <div class="w3-section">
         <label>Description</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
+        <input class="w3-input w3-border" type="text" name="Description" required>
       </div>
       <div class="w3-section">
         <label>Materials Required</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
+        <input class="w3-input w3-border" type="text" name="Materials" required>
       </div>
       <div class="w3-section"></div>
         <label>Upload An Image Here</label>
-        <input class ="w3-input w3-border" type="file" id="myFile" name="filename">
+        <input class ="w3-input w3-border" type="file" id="myFile" name="Filename">
       </form>
       <br>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Post</button>

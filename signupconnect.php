@@ -15,7 +15,8 @@ $password = $_POST['Password'];
 $email = $_POST['Email'];
 echo 'successful connection';
 
-$sql = $pdo->query("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
+$sql = $pdo->prepare("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
+$sql->execute(['username' => $username, 'password' => $password, 'email' => $email]);
 /*
 $sql->bind('username', $username);
 $sql->bind('password', $password);

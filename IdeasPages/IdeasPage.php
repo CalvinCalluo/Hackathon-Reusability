@@ -114,13 +114,8 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion2')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion2">
             <p><b>Reuse Candle Jars</b></p>
-            <p>Eco Friendly</p>
-            <h5><u>Materials Needed:</u></h5>
-            <li>A single candle jar</li>
-            <li>A Knife or Spoon</li>
-            <h5><u>Steps</u></h5>
-            <p>1.&nbsp Grab a candle jar and take out the wax inside that's left with a spoon or knife</p>
-            <p>2.&nbsp Put anything inside!</p>
+            <p>Eco Friendly<br> Candle Jars are great items to store small items.</p>
+            <a href="/IdeasPages/htmlideapages/reuseCandleJars.html" class="w3-button w3-right">More details</a>
           </div>
         </div>
         <div class="w3-third w3-container">

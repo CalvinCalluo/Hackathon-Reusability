@@ -15,26 +15,7 @@ $description = $_POST["Description"];
 $materials = $_POST["Materials"];
 $filename = $_POST["Filename"];
 
-$sql = $pdo->query(INSERT INTO ideainfo (Title, Description, Materials, Image) VALUES ($title, $description, $materials, $filename));
+$sql = $pdo->prepare("INSERT INTO ideainfo (Title, Description, Materials, Image) VALUES (:title, :description, :materials, :filename)");
+$sql->execute(['title' => $title, 'description' => $description, 'materials' => $materials, 'filename' => $filename]);
 
-/*
-$result = $pdo->query('SELECT username, password FROM logininfo');
-if ($result->rowCount() > 0){
-    $row = $result->fetch(PDO::FETCH_ASSOC);
-    //echo $email.' '.$row['username'];
-    //echo $passcode.' '.$row['password'];
-    if($row['username'] == $email && $row['password'] == $passcode){
-      // Correct username and password, logged in	
-      header('Location: IdeasPages/IdeasPage.php');
-      die();
-        
-      echo 'correct';
-    }
-      else {
-      // Incorrect password
-      //$_SESSION["error"] = 'Incorrect username and/or password!';
-      //header('Location: loginPage.php');
-      echo 'incorrect';
-    }
-  } 
 ?>

@@ -14,7 +14,7 @@ $username = $_POST['Username'];
 $password = $_POST['Password'];
 $email = $_POST['Email'];
 
-$sql->query("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
+$sql = $pdo->query("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
 $sql->bind('username', $username);
 $sql->bind('password', $password);
 $sql->bind('email', $email);

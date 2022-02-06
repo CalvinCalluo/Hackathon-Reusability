@@ -128,8 +128,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   </div>
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <header id="ideapage">
-    <a href="#ideapage">  
+    <header id="createidea">
+    <a href="#createidea">  
     <h4><b>Create Idea</b></h4>
     <p>Create Your Own Projects Here!</p>
     <hr>

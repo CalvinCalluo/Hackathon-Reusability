@@ -149,10 +149,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <label>Materials Required</label>
         <input class="w3-input w3-border" type="text" name="Materials" required>
       </div>
-      <div class="w3-section"></div>
+      <div class="w3-section">
         <label>Upload An Image Here</label>
         <input class ="w3-input w3-border" type="file" id="myFile" name="Filename">
-      </form>
+      </div>
       <br>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Post</button>
     </form>

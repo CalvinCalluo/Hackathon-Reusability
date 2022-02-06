@@ -66,12 +66,7 @@ session_start();
         </a>
       </div>
       <div class="w3-panel w3-large">
-        <a href="https://twitter.com/HackathonBubs?ref_src=twsrc%5Etfw" class="fa fa-facebook-official w3-hover-opacity" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a href="https://twitter.com/HackathonBubs?ref_src=twsrc%5Etfw" class="fa fa-twitter w3-hover-opacity w3-hover-opacity" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </nav>
 

@@ -30,7 +30,7 @@ if ($result->rowCount() > 0){
       else {
       // Incorrect password
       //$_SESSION["error"] = 'Incorrect username and/or password!';
-      header('Location: loginPage.html');
+      //header('Location: loginPage.html');
       
     }
   } 

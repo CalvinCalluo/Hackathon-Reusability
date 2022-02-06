@@ -102,12 +102,12 @@ session_start();
           <div class="w3-container w3-white w3-hide" id="accordion1">
             <p><b>Reusing Food Containers</b></p>
             <p>An eco-friendly way to upcycle your food containers!.</p>
+            <a href="/IdeasPages/htmlideapages/reusing_food_containers.html" class="w3-button w3-right">More details</a>
             <h5><u>Materials Needed:</u></h5>
             <li>A single food container</li>
             <h5><u>Steps</u></h5>
             <p>1.&nbsp Grab a food container and wash the insides with soap thoroughly</p>
             <p>2.&nbsp Put anything inside!</p>
-            <a href="/IdeasPages/htmlideapages/reusing_food_containers.html" class="w3-button w3-right">More details</a>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">

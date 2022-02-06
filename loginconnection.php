@@ -25,6 +25,7 @@ if(!isset($_SESSION["loggedIn"])){
       // Correct username and password, logged in	
       header('Location: IdeasPages/IdeasPage.php');
       $_SESSION["loggedIn"] = true;
+      $_SESSION["username"] = $email;
       die();
         
       echo 'correct';

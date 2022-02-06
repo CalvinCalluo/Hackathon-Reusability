@@ -136,7 +136,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Create Idea Section -->
     <div class="w3-container w3-padding-large w3-light-green">
     <hr class="w3-opacity">
-    <form action="createideaconnect.php" method="POST" target="_blank">
+    <form action="createideaconnect.php" method="POST">
       <div class="w3-section">
         <label>Idea Title</label>
         <input class="w3-input w3-border" type="text" name="Title" required>

@@ -102,6 +102,7 @@ session_start();
           <div class="w3-container w3-white w3-hide" id="accordion1">
             <p><b>Reusing Food Containers</b></p>
             <p>An eco-friendly way to upcycle your food containers!.</p>
+            <a href="/IdeasPages/htmlideapages/reusing_food_containers.html" class="w3-button w3-right">More details</a>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">

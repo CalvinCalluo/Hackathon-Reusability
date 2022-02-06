@@ -167,8 +167,12 @@ session_start();
                 </li>
             <li>Scissors</li>
             <h5><u>Steps</u></h5>
-            <p>1.&nbsp Cut the plastic water bottle around halfway</p>
-            <p>2.&nbsp Add soil to the bottom of the water bottle and plant your seed!</p>
+            <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
+            <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
+            <p>3.&nbsp With scissors roughly cut out your shapes.</p>
+            <p>4.&nbsp After the top of the bottle is removed go back around and clean up the edges.</p>
+            <p>5.&nbsp Lightly sand the outside of the bottle to roughen the surface. This will help the paint to stick. Wipe clean (make sure bottle is clean and dry).</p>
+            <p>6.&nbsp Paint the bottle with chosen shade of acrylic paint, this will take several coats. Tip: use a hair dryer to speed drying between coats. Spray paint made for plastic can be used if you already have a can at home.</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">

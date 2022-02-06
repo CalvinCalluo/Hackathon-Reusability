@@ -27,7 +27,7 @@ if(isset($_SESSION['loggedIn']) == false){
           $_SESSION["loggedIn"] = true;
           $_SESSION["username"] = $email;
           // Correct username and password, logged in	
-          header('Location: IdeasPages/IdeasPage.php');
+          header('Location: IdeasPages/IdeasPage.html');
           die();
     
         }
@@ -40,7 +40,7 @@ if(isset($_SESSION['loggedIn']) == false){
     } 
 }
 else{
-    header('Location: IdeasPages/IdeasPage.php');
+    header('Location: IdeasPages/IdeasPage.html');
 }
 
 ?>

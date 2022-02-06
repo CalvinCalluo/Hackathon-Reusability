@@ -147,7 +147,7 @@ session_start();
           </div>
         </div>
         <div class="w3-third w3-container">
-          <img src="/IdeasPages/IdeaPageImages/milk_carton_boat.PNG" alt="Reusing Pill Bottle" style="width:100%" class="w3-hover-opacity projectidea">
+          <img src="../IdeasPages/IdeaPageImages/ReusePillBottle.jpg" alt="Reusing Pill Bottle" style="width:100%" class="w3-hover-opacity projectidea">
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion6')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion6">
             <p><b>Milk Carton Boats</b></p>

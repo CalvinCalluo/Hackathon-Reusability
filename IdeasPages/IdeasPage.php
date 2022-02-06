@@ -172,12 +172,12 @@ session_start();
       <div class="w3-container w3-padding-large" style="margin-bottom:32px">
         <header id="createidea">
           <a href="#createidea"></a>
-            <h4><b>Create Idea</b></h4>
-            <p>Create Your Own Projects Here!</p>
             <!-- Create Idea Section -->
             <div class="w3-container w3-padding-large w3-light-gray">
               <hr class="w3-opacity">
               <form action="createideaconnect.php" method="POST">
+                <h4><b>Create Idea</b></h4>
+                <p>Create Your Own Projects Here!</p>
                 <div class="w3-section">
                   <label>Idea Title</label>
                   <input class="w3-input w3-border" type="text" name="Title">

@@ -68,20 +68,19 @@
     </nav>
 
     <!--login page actual info-->
-    <div class="w3-container w3-light-grey login-padding" id="login" style="min-height: 100vh">
+    <div class="w3-container w3-light-grey login-padding" id="login" style="min-height: 100vh;">
       <h3 class="w3-center">
         Log In
       </h3>
-      <div style="margin-top: 2%">
+      <div class="w3-center" style="margin-top: 2%;">
         <form action="connection.php" method="POST">
-          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="25%" id="email"></p>
-          <p class = "all-centered"><input class="w3-border" type="password" placeholder="Password" required name="Password" size = "25%" id="password"></p>
-          <p class = "all-centered" style = "font-size: 50%"><input type="checkbox" onclick="showPassword()">&#160&#160Show Password</p>
-          <p class = "all-centered">
-            <button class="w3-button w3-black" type="submit" id="quickstart-sign-in">
-              <i class="fa fa-paper-plane"></i> Log In
-            </button>
-          </p>
+          <input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="50%" height="30" id="email"></input><br><br>
+          <input class="w3-border" type="password" placeholder="Password" required name="Password" size = "50%" height="30" id="password"></input><br><br>
+          <input type="checkbox" onclick="showPassword()">&#160&#160Show Password</input><br>
+          <button class="w3-button w3-black" type="submit" id="quickstart-sign-in">
+            <i class="fa fa-paper-plane"></i> Log In
+          </button>
+          
         </form>
          <p class = "all-centered" style = "font-size: 50%">
             Don't have an account?&#160&#160

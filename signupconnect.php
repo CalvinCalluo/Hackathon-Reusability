@@ -13,12 +13,14 @@ $pdo = new PDO("pgsql:" . sprintf(
 $username = $_POST['Username'];
 $password = $_POST['Password'];
 $email = $_POST['Email'];
+echo 'successful connection';
 
 $sql = $pdo->query("INSERT INTO logininfo (username, password, email) VALUES (:username, :password, :email)");
+/*
 $sql->bind('username', $username);
 $sql->bind('password', $password);
 $sql->bind('email', $email);
-$sql->execute();
+$sql->execute();*/
 
 
 ?>

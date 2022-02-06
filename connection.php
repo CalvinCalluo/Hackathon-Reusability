@@ -15,7 +15,7 @@ $passcode = $_POST["password"];
 echo 'successfully connected';
 
 $result = $pdo->query('SELECT username, password FROM logininfo');
-if ($pdo->numRows($result) > 0){
+if ($result->rowCount() > 0){
     $row = $result->fetch(PDO::FETCH_ASSOC);
     if($row['username'] == $email && $row['password'] == $passcode){
       // Correct username and password, logged in	

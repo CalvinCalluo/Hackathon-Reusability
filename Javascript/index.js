@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-firestore.js";
+import { getFirestore, setDoc, doc } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,13 +18,19 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore();
 
-const test = doc(firestore, 'users/newUser1');
-const docData = {
-    username : 'tester1',
-    password : 'testerpassword',
-    email : 'emailtest'
-};
-setdoc(test, docData);
+const test = doc(firestore, 'users/base');
+
+function writeLogin(){
+    const docData = {
+        username : 'tester1',
+        password : 'testerpassword',
+        email : 'emailtest'
+    };
+    setDoc(test, docData);
+}
+
+document.getElementById('helloworld').innerHTML("Goodbye World!");
+writeLogin();
 /*
 function initApp() {
     // Listening for auth state changes.

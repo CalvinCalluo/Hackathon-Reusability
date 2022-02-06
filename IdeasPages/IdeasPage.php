@@ -67,8 +67,7 @@ session_start();
       </div>
       <div class="w3-panel w3-large">
         <a href="https://twitter.com/HackathonBubs?ref_src=twsrc%5Etfw" class="fa fa-twitter w3-hover-opacity w3-hover-opacity" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a href="www.pinterest.com/hackathonb" class="fa fa-pinterest-p w3-hover-opacity">
-      </div>
+        <a href="https://www.pinterest.com/pinterest/hackathonb" class="fa fa-pinterest-p w3-hover-opacity">
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->

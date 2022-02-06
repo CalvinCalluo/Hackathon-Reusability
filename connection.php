@@ -19,26 +19,25 @@ $passcode = $_POST["Password"];
 $result = $pdo->prepare('SELECT * FROM logininfo WHERE username = :username AND password = :password');
 $result->execute(['username'=>$email, 'password'=>$passcode]);
 $row = $result->fetch(PDO::FETCH_ASSOC);
-if(isset($_SESSION['loggedIn']) == false){
-    if ($result->rowCount() > 0){
-        //echo $email.'  Real Username: '.$row['username'].'<br>';
-        //echo $passcode.'   Real Password   '.$rod['password'].'<br>';
-        if($row['username'] == $email && $row['password'] == $passcode){
-          $_SESSION["loggedIn"] = true;
-          $_SESSION["username"] = $email;
-          // Correct username and password, logged in	
-          header('Location: IdeasPages/IdeasPage.php');
-        }
-        else {
-          // Incorrect password
-          $_SESSION["error"] = 'Incorrect username and/or password!';
-          header('Location: LoginPage.html');
-          echo 'incorrect';
-        }
-    } 
-}
+
+if ($result->rowCount() > 0){
+    //echo $email.'  Real Username: '.$row['username'].'<br>';
+    //echo $passcode.'   Real Password   '.$rod['password'].'<br>';
+    if($row['username'] == $email && $row['password'] == $passcode){
+      $_SESSION["loggedIn"] = true;
+      $_SESSION["username"] = $email;
+      // Correct username and password, logged in	
+      header('Location: IdeasPages/IdeasPage.php');
+    }
+    else {
+      // Incorrect password
+      $_SESSION["error"] = 'Incorrect username and/or password!';
+      header('Location: LoginPage.html');
+      echo 'incorrect';
+    }
+} 
 else{
-    header('Location: IdeasPages/IdeasPage.php');
+    header('Location: SignUp.html');
 }
 
 

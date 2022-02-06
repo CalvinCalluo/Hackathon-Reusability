@@ -149,29 +149,7 @@ session_start();
           <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
             <p>Present tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            <h5><u>Materials Needed:</u></h5>
-            <li>Empty plastic bottle (any size)</li>
-            <li>Masking tape</li>
-            <li>Googly eyes</li>
-            <li>Fine sandpaper (300+ Grit)</li>
-            <li>Recycled buttons or other decorations</li>
-            <li>Glue stick or hot glue (low setting)</li>
-            <li>Plant and soil</li>
-            <li>Acrylic paint and/or spray paint for plastic
-                In green, blue or white (depending on craft)</li>
-            <li>Paint brush</li>
-            <li>Chalk marker or permanent marker in black (and pink for Peekaboo Cat)</li>
-            <li>Utility knife and scissors</li>
-            <li>Glue</li>
-                </li>
-            <li>Scissors</li>
-            <h5><u>Steps</u></h5>
-            <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
-            <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
-            <p>3.&nbsp With scissors roughly cut out your shapes.</p>
-            <p>4.&nbsp After the top of the bottle is removed go back around and clean up the edges.</p>
-            <p>5.&nbsp Lightly sand the outside of the bottle to roughen the surface. This will help the paint to stick. Wipe clean (make sure bottle is clean and dry).</p>
-            <p>6.&nbsp Paint the bottle with chosen shade of acrylic paint, this will take several coats. Tip: use a hair dryer to speed drying between coats. Spray paint made for plastic can be used if you already have a can at home.</p>
+            <a href="/IdeasPages/htmlideapages/PlasticBottlePlanters.html">
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">

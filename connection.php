@@ -32,7 +32,7 @@ if(isset($_SESSION['loggedIn']) == false){
         else {
           // Incorrect password
           $_SESSION["error"] = 'Incorrect username and/or password!';
-          header('Refresh:2; Location: LoginPage.html');
+          header('Location: LoginPage.html');
           echo 'incorrect';
         }
     } 
@@ -40,5 +40,5 @@ if(isset($_SESSION['loggedIn']) == false){
 else{
     header('Location: IdeasPages/IdeasPage.php');
 }
-
+header('Location: LoginPage.html');
 ?>

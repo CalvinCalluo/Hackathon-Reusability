@@ -10,6 +10,7 @@ $pdo = new PDO("pgsql:" . sprintf(
     ltrim($db["path"], "/")
 ));
 
+echo("connection successful");
 $title = $_POST["Title"];
 $description = $_POST["Description"];
 $materials = $_POST["Materials"];
@@ -17,6 +18,6 @@ $filename = $_POST["Filename"];
 
 $sql = $pdo->prepare("INSERT INTO ideainfo (Title, Description, Materials, Image) VALUES (:title, :description, :materials, :filename)");
 $sql->execute(['title' => $title, 'description' => $description, 'materials' => $materials, 'filename' => $filename]);
-echo("hi")
+echo("insertation successful")
 
 ?>

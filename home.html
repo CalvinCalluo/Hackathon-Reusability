@@ -32,6 +32,21 @@
       justify-content: center;
       align-items: center;
     }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
     </style>
 </head>
 
@@ -115,34 +130,50 @@
     <p class="w3-large w3-text-grey w3-hide-medium"> Trash to Toys sets out to achieve this goal by creating a platform for sharing simple and fun projects with a focus on environmentalism.</p>
   </div>
 </div>
+
 <!-- About Section -->
-<div class="w3-container w3-padding-32 w3-animate-right w3-center w3-sand"> 
-  <div class="w3-padding-32 w3-col m6">
-    <h2>Our Inspiration</h2>
-    <h4><b>UN SDG #12</b></h4>
-    <h6><i>United Nations Sustainable Development Goal 12: Responsible Consumption and Production</i></h6>
-    <h4>Our planet has provided us with an abundance of natural resources. <br> But we have not utilized them responsibly and currently consume far beyond what our planet can provide. We must learn how to use and produce in sustainable ways that will reverse the harm that we have inflicted on the planet.</h4>
-  </div>
-  <div class="w3-col m6 w3-center">
-    <img src="/HomePageImages/UNsdg12.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="450" height="300">
-  </div> 
-  <div class="w3-col m6 w3-center">
-    <img src="/HomePageImages/Reusing2.jpg" class="w3-image" style="display:block; margin:auto" width="550" height="400">
-  </div>
-  <div class="w3-padding-32 w3-col m6 w3-center" style="text-align: justify;">
-    <h2>SDG 12 States <b>Four</b> Issues:</h2>
-    <h5>
-      <li>Halving global food waste per capita and ensuring the efficient and sustainable use of
-        natural resources by 2030</li>
-      <li>Fighting pollution, reducing the overall waste generation, and improving the management
-        of chemicals and toxic wastes</li>
-      <li>Supporting companies’ transition to green infrastructures and practices </li>
-      <li>Making sure everyone everywhere is fully informed of ways to live in harmony with
-        nature and eventually adopts thoughtful habits</li> 
-    </h5>
-  </div>
-  
+<div class="w3-container w3-animate-right w3-center w3-sand"> 
+  <table>
+    <tr>
+      <td>
+        <div class="text1" style="width:50%; margin-right: 15%; margin-left:15%">
+          <h2>Our Inspiration</h2>
+          <h4><b>UN SDG #12</b></h4>
+          <h6><i>United Nations Sustainable Development Goal 12: Responsible Consumption and Production</i></h6>
+          <h4>Our planet has provided us with an abundance of natural resources. <br> But we have not utilized them responsibly and currently consume far beyond what our planet can provide. We must learn how to use and produce in sustainable ways that will reverse the harm that we have inflicted on the planet.</h4>
+        </div>
+      </td>
+      <td>
+        <div class="image1" style="width:50%; margin-right: 15%; margin-left:15%">
+          <img src="/HomePageImages/UNsdg12.png" alt="Me" class="w3-image" style="display:block;margin:auto">
+        </div>
+      </td>
+    </tr>
+    <br>
+    <tr> 
+      <td>
+        <div class="image2" style="width:50%; margin-right: 15%; margin-left:15%">
+          <img src="/HomePageImages/Reusing2.jpg" class="w3-image">
+        </div>
+      </td>
+      <td>
+        <div class="text2" style="width:50%; margin-right: 15%; margin-left:15%">
+          <h2>SDG 12 States <b>Four</b> Issues:</h2>
+          <h5>
+            <li>Halving global food waste per capita and ensuring the efficient and sustainable use of
+              natural resources by 2030</li>
+            <li>Fighting pollution, reducing the overall waste generation, and improving the management
+              of chemicals and toxic wastes</li>
+            <li>Supporting companies’ transition to green infrastructures and practices </li>
+            <li>Making sure everyone everywhere is fully informed of ways to live in harmony with
+              nature and eventually adopts thoughtful habits</li> 
+          </h5>
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
+
 <div class="w3-continer w3-center w3-padding-16 w3-sand">
   <iframe title='World Counter Waste Dumped' src='https://www.theworldcounts.com/embed/challenges/104?background_color=sand&color=sand&font_family=%22Raleway%22%2C+Raleway%2C+sans-serif&font_size=50' style='border: none' height='100%' width='100%'></iframe>
   <h3 class="w3-text-green">Globally, this year</h3>

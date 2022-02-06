@@ -102,12 +102,6 @@ session_start();
           <div class="w3-container w3-white w3-hide" id="accordion1">
             <p><b>Reusing Food Containers</b></p>
             <p>An eco-friendly way to upcycle your food containers!.</p>
-            <a href="/IdeasPages/htmlideapages/reusing_food_containers.html" class="w3-button w3-right">More details</a>
-            <h5><u>Materials Needed:</u></h5>
-            <li>A single food container</li>
-            <h5><u>Steps</u></h5>
-            <p>1.&nbsp Grab a food container and wash the insides with soap thoroughly</p>
-            <p>2.&nbsp Put anything inside!</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
@@ -124,15 +118,9 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion3')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion3">
             <p><b>Pillowcase made of clothes</b></p>
-            <p>Prasent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            <h5><u>Materials Needed:</u></h5>
-            <li>A button up shirt</li>
-            <li>A pillow</li>
-            <li>A thread</li>
-            <h5><u>Steps</u></h5>
-            <p>1.&nbsp Measure the shirt. The front and back of the pillow cover need to be one inch larger than the pillow form. For example, with a 14-inch square pillow, the fabric should be 15 inches x 15 inches.</p>
-            <p>2.&nbsp Cut two identical pieces of fabric with what you have measured</p>
-            <p>3.&nbsp Sew them together with thread and insert the pillow between them!</p>
+            <p>An innovative way to reuse your old clothes for a better night's sleep.
+            </p>
+            
           </div>
         </div>
       </div>
@@ -166,7 +154,7 @@ session_start();
           </div>
         </div>
       </div>
-
+        <!---->
       <!-- Pagination -->
       <div class="w3-center w3-padding-32">
         <div class="w3-bar">

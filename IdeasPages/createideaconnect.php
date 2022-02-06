@@ -16,7 +16,7 @@ $description = $_POST["Description"];
 $materials = $_POST["Materials"];
 $filename = $_POST["Filename"];
 
-$sql = $pdo->prepare("INSERT INTO ideainfo (Title, Description, Materials, Image) VALUES (:title, :description, :materials, :filename)");
+$sql = $pdo->prepare("INSERT INTO ideainfo (title, description, materials, image) VALUES (:title, :description, :materials, :filename)");
 $sql->execute(['title' => $title, 'description' => $description, 'materials' => $materials, 'filename' => $filename]);
 echo("insertation successful")
 

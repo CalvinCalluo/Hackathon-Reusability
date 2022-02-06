@@ -143,7 +143,7 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion4')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
-            <p>Present tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>A fun, creative way to reuse your plastic water bottles! Don't throw them away, use them for plants!.</p>
             <a href="/IdeasPages/htmlideapages/PlasticBottlePlanters.html" class="w3-button w3-right">More details</a>
           </div>
         </div>
@@ -152,14 +152,7 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion5')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id='accordion5'>
             <p><b>Plastic Bottle Sprinkler</b></p>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-            <h5><u>Materials Needed:</u></h5>
-            <li>A plastic bottle</li>
-            <li>A drill</li>
-            <li>Duct tape</li>
-            <h5><u>Steps</u></h5>
-            <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
-            <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
+            <p>Create a sprinkler system using an plastic water bottle.</p>
             <a href="/IdeasPages/htmlideapages/sprinkler.html" class="w3-button w3-right">More details</a>
           </div>
         </div>

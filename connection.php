@@ -40,5 +40,6 @@ if(isset($_SESSION['loggedIn']) == false){
 else{
     header('Location: IdeasPages/IdeasPage.php');
 }
-header('Location: LoginPage.html');
+
+
 ?>

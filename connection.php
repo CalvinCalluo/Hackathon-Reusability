@@ -12,16 +12,19 @@ $pdo = new PDO("pgsql:" . sprintf(
 
 $email = $_POST["email"];
 $passcode = $_POST["password"];
-echo 'successfully connected';
+echo 'email: '.$email.'\n';
+echo 'password: '.$passcode.'\n';
 
 $result = $pdo->query('SELECT username, password FROM logininfo');
 if ($result->rowCount() > 0){
     $row = $result->fetch(PDO::FETCH_ASSOC);
+    echo $email.' '.$row['username'];
+    echo $passcode.' '.$row['password'];
     if($row['username'] == $email && $row['password'] == $passcode){
       // Correct username and password, logged in	
       //header('Location: Home Page/HomePage.html');
       //die();n
-    
+        
       echo 'correct';
     }
       else {

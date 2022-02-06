@@ -28,14 +28,12 @@ if(isset($_SESSION['loggedIn']) == false){
           $_SESSION["username"] = $email;
           // Correct username and password, logged in	
           header('Location: IdeasPages/IdeasPage.php');
-          die();
-    
         }
-          else {
+        else {
           // Incorrect password
           $_SESSION["error"] = 'Incorrect username and/or password!';
-          header('Location: LoginPage.html');
-          
+          header('Refresh:2; Location: LoginPage.html');
+          echo 'incorrect';
         }
     } 
 }

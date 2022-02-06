@@ -26,6 +26,7 @@ if (mysqli_num_rows($result) > 0){
       // Incorrect password
       //$_SESSION["error"] = 'Incorrect username and/or password!';
       //header('Location: loginPage.php');
+      echo 'incorrect';
     }
   } 
 ?>

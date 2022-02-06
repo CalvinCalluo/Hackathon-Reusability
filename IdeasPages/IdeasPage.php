@@ -130,7 +130,7 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion3')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion3">
             <p><b>Pillowcase made of clothes</b></p>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Prasent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
             <h5><u>Materials Needed:</u></h5>
             <li>A button up shirt</li>
             <li>A pillow</li>
@@ -147,16 +147,32 @@ session_start();
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
           <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion4')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Present tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A plastic bottle</li>
+            <li>Scissors</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Cut the plastic water bottle around halfway</p>
+            <p>2.&nbsp Add soil to the bottom of the water bottle and plant your seed!</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
           <img src="/IdeasPages/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Reuse Bottle as sprinkler" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
-            <p><b>Lorem Ipsum</b></p>
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion5')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id='accordion5'>
+            <p><b>Plastic Bottle Sprinkler</b></p>
             <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A plastic bottle</li>
+            <li>A drill</li>
+            <li>Duct tape</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Drill small holes into the water bottle</p>
+            <p>2.&nbsp Attach the top of the bottle to your hose, eliminating any holes with duct tape</p>
+            <p>3.&nbsp Crank up the hose!</p>
           </div>
         </div>
         <div class="w3-third w3-container">

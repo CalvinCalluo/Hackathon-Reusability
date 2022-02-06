@@ -11,14 +11,13 @@ $pdo = new PDO("pgsql:" . sprintf(
 ));
 
 $email = $_POST["email"];
-$password = $_POST["password"];
+$passcode = $_POST["password"];
 echo 'successfully connected';
-/*
-$u = 'SELECT username, passcode FROM logininfo';
-$result = mysqli_query($pdo, $u);
-if (mysqli_num_rows($result) > 0){
-    $row = mysqli_fetch_assoc($result);
-    if($row['username'] == $email && $row['passcode'] == $password){
+
+$result = $pdo->query('SELECT username, password FROM logininfo');
+if ($pdo->numRows($result) > 0){
+    $row = $result->fetch(PDO::FETCH_ASSOC);
+    if($row['username'] == $email && $row['password'] == $passcode){
       // Correct username and password, logged in	
       //header('Location: Home Page/HomePage.html');
       //die();n
@@ -31,5 +30,5 @@ if (mysqli_num_rows($result) > 0){
       //header('Location: loginPage.php');
       echo 'incorrect';
     }
-  } */
+  } 
 ?>

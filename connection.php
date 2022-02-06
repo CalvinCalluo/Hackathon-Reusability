@@ -15,7 +15,9 @@ $passcode = $_POST["Password"];
 echo 'email: '.$email.'<br>';
 echo 'password: '.$passcode.'<br>';
 
-$result = $pdo->query('SELECT username, password FROM logininfo');
+$result = $pdo->query('SELECT username, password FROM logininfo WHERE username = :username AND password = :password');
+$result->bindValue('username', $email);
+$result->bindValue('password', $passcode);
 if ($result->rowCount() > 0){
     $row = $result->fetch(PDO::FETCH_ASSOC);
     echo $email.'  Real Username: '.$row['username'].'<br>';

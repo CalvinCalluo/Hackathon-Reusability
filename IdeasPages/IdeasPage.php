@@ -30,7 +30,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <?php
       if(isset($_SESSION['loggedIn'])){
         echo '<h4 id="welcome-email"><b>'.$_SESSION['username'].'</b></h4>';
-        echo '<p class="w3-text-grey" id="welcome-username">Welcome, '.$_SESSION['username'].'NAME</p>';
+        echo '<p class="w3-text-grey" id="welcome-username">Welcome, '.$_SESSION['username'].'</p>';
       }
       
       

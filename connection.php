@@ -19,7 +19,7 @@ $passcode = $_POST["Password"];
 $result = $pdo->prepare('SELECT * FROM logininfo WHERE username = :username AND password = :password');
 $result->execute(['username'=>$email, 'password'=>$passcode]);
 $row = $result->fetch(PDO::FETCH_ASSOC);
-if(!isset($_SESSION['loggedIn'])){
+if(isset($_SESSION['loggedIn']) == false){
     if ($result->rowCount() > 0){
         //echo $email.'  Real Username: '.$row['username'].'<br>';
         //echo $passcode.'   Real Password   '.$rod['password'].'<br>';
@@ -34,7 +34,7 @@ if(!isset($_SESSION['loggedIn'])){
           else {
           // Incorrect password
           //$_SESSION["error"] = 'Incorrect username and/or password!';
-          header('Location: loginPage.html');
+          header('Location: LoginPage.html');
           
         }
     } 

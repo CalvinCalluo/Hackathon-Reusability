@@ -22,9 +22,10 @@ if(!isset($_SESSION["loggedIn"])){
     //echo $email.' '.$row['username'];
     //echo $passcode.' '.$row['password'];
     if($row['username'] == $email && $row['password'] == $passcode){
+      $_SESSION["loggedIn"] = true;
+      $_SESSION["username"] = $email;
       // Correct username and password, logged in	
       header('Location: IdeasPages/IdeasPage.php');
-      $_SESSION["loggedIn"] = true;
       die();
         
       echo 'correct';
@@ -32,13 +33,13 @@ if(!isset($_SESSION["loggedIn"])){
       else {
       // Incorrect password
       //$_SESSION["error"] = 'Incorrect username and/or password!';
-      header('Location: loginPage.html');
+      header('Location: LoginPage.html');
       echo 'incorrect';
     }
   } 
 }
 else{
-  header('Location: ideasPage.php');
+  header('Location: LoginPage.html');
 }
 
 ?>

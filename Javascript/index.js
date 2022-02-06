@@ -1,3 +1,31 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-firestore.js";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBSk7aPyIvzmoHiXrxTKx4isPWcsF0_UOc",
+  authDomain: "reusability-ecefa.firebaseapp.com",
+  projectId: "reusability-ecefa",
+  storageBucket: "reusability-ecefa.appspot.com",
+  messagingSenderId: "837668182158",
+  appId: "1:837668182158:web:254534cb97170707e091df"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const firestore = getFirestore();
+
+const test = doc(firestore, 'users/newUser1');
+const docData = {
+    username : 'tester1',
+    password : 'testerpassword',
+    email : 'emailtest'
+};
+setdoc(test, docData);
+/*
 function initApp() {
     // Listening for auth state changes.
     firebase.auth().onAuthStateChanged(function(user) {
@@ -27,4 +55,4 @@ function initApp() {
 
 window.onload = function() {
     initApp();
-};
+};*/

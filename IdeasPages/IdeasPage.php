@@ -39,27 +39,27 @@ session_start();
             echo '<h4 id="welcome-email"><b>'.$_SESSION['username'].'</b></h4>';
             echo '<p class="w3-text-grey" id="welcome-username">Welcome, '.$_SESSION['username'].'</p>';
           }
-          
-          
+
+
           /*
           else if($_SESSION['loggedIn'==false]){
             echo '<h4 id="welcome-email"><b>USERNAME</b></h4>';
             echo '<p class="w3-text-grey" id="welcome-username">Welcome, NAME</p>';
           }*/
         ?>
-        
-        
+
+
       </div>
-      
+
       <div class="w3-bar-block">
         <a href="#ideapage" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">
           <i class="fa fa-th-large fa-fw w3-margin-right"></i>
           Idea Page
-        </a> 
+        </a>
         <a href="#createidea" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
           <i class="fa fa-user fa-fw w3-margin-right"></i>
           Create Idea
-        </a> 
+        </a>
         <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
           <i class="fa fa-envelope fa-fw w3-margin-right"></i>
           Contact Us
@@ -86,14 +86,14 @@ session_start();
         <div class="w3-container">
           <h1><b>Idea Page</b></h1>
           <div class="w3-section w3-bottombar w3-padding-16">
-            <span class="w3-margin-right">Filter:</span> 
+            <span class="w3-margin-right">Filter:</span>
             <button class="w3-button w3-black">ALL</button>
             <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Material</button>
             <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Product</button>
           </div>
         </div>
       </header>
-      
+
       <!-- First Photo Grid-->
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
@@ -169,12 +169,12 @@ session_start();
 
       <div class="w3-container w3-padding-large" style="margin-bottom:32px">
         <header id="createidea">
-          <a href="#createidea"></a>  
+          <a href="#createidea"></a>
             <h4><b>Create Idea</b></h4>
             <p>Create Your Own Projects Here!</p>
             <hr>
             <!-- Create Idea Section -->
-            <div class="w3-container w3-padding-large w3-light-green">
+            <div class="w3-container w3-padding-large w3-light-gray">
               <hr class="w3-opacity">
               <form action="createideaconnect.php" method="POST">
                 <div class="w3-section">
@@ -216,7 +216,7 @@ session_start();
               </li>
             </ul>
           </div>
-          
+
           <div class="w3-third w3-margin-bottom">
             <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
               <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
@@ -233,7 +233,7 @@ session_start();
               </li>
             </ul>
           </div>
-          
+
           <div class="w3-third">
             <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
               <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
@@ -252,7 +252,7 @@ session_start();
           </div>
         </div>
       </div>
-    --> 
+    -->
             <hr>
             <!-- Contact Section -->
             <div class="w3-container w3-padding-large w3-light-gray">
@@ -293,7 +293,7 @@ session_start();
               </form>
             </div>
             <hr>
-      <!-- Footer 
+      <!-- Footer
       <footer class="w3-container w3-padding-32 w3-green">
       <div class="w3-row-padding">
         <div class="w3-third">
@@ -301,7 +301,7 @@ session_start();
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
           <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </div>
-      
+
         <div class="w3-third">
           <h3>BLOG POSTS</h3>
           <ul class="w3-ul w3-hoverable">
@@ -314,7 +314,7 @@ session_start();
               <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
               <span class="w3-large">Ipsum</span><br>
               <span>Praes tinci sed</span>
-            </li> 
+            </li>
           </ul>
         </div>
 
@@ -341,7 +341,7 @@ session_start();
       document.getElementById("mySidebar").style.display = "block";
       document.getElementById("myOverlay").style.display = "block";
   }
-   
+
   function w3_close() {
       document.getElementById("mySidebar").style.display = "none";
       document.getElementById("myOverlay").style.display = "none";
@@ -351,7 +351,7 @@ session_start();
     var x = document.getElementById(id);
     if (x.className.indexOf("w3-show") == -1) {
       x.className += " w3-show";
-    } else { 
+    } else {
       x.className = x.className.replace(" w3-show", "");
     }
   }

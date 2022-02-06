@@ -22,7 +22,7 @@ if ($result->rowCount() > 0){
     //echo $passcode.' '.$row['password'];
     if($row['username'] == $email && $row['password'] == $passcode){
       // Correct username and password, logged in	
-      header('Location: IdeasPages/IdeasPage.html');
+      header('Location: IdeasPages/IdeasPage.php');
       die();
         
       echo 'correct';

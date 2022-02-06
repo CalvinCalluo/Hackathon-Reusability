@@ -10,8 +10,8 @@ $pdo = new PDO("pgsql:" . sprintf(
     ltrim($db["path"], "/")
 ));
 
-$email = $_POST["email"];
-$passcode = $_POST["password"];
+$email = $_POST["Username/Email"];
+$passcode = $_POST["Password"];
 echo 'email: '.$email.'\n';
 echo 'password: '.$passcode.'\n';
 

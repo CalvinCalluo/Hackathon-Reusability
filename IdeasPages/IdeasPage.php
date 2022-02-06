@@ -165,7 +165,7 @@ session_start();
             <h5><u>Steps</u></h5>
             <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
             <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
-            
+            <a href="/IdeasPages/htmlideapages/sprinkler.html" class="w3-button w3-right">More details</a>
           </div>
         </div>
         <div class="w3-third w3-container">

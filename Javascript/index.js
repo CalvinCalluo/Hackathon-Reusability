@@ -25,6 +25,6 @@ function initApp() {
     document.getElementById('quickstart-sign-up').addEventListener('click', handleSignUp, false);
 }
 
-  window.onload = function() {
+window.onload = function() {
     initApp();
-  };
+};

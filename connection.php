@@ -27,20 +27,20 @@ if(isset($_SESSION['loggedIn']) == false){
           $_SESSION["loggedIn"] = true;
           $_SESSION["username"] = $email;
           // Correct username and password, logged in	
-          header('Location: IdeasPages/IdeasPage.html');
+          header('Location: IdeasPages/IdeasPage.php');
           die();
     
         }
           else {
           // Incorrect password
-          //$_SESSION["error"] = 'Incorrect username and/or password!';
+          $_SESSION["error"] = 'Incorrect username and/or password!';
           header('Location: LoginPage.html');
           
         }
     } 
 }
 else{
-    header('Location: IdeasPages/IdeasPage.html');
+    header('Location: IdeasPages/IdeasPage.php');
 }
 
 ?>

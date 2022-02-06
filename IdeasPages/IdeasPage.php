@@ -66,13 +66,7 @@ session_start();
         </a>
       </div>
       <div class="w3-panel w3-large">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-      </div>
+        <a href="https://twitter.com/HackathonBubs?ref_src=twsrc%5Etfw" class="fa fa-twitter w3-hover-opacity w3-hover-opacity" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->
@@ -134,7 +128,7 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion3')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion3">
             <p><b>Pillowcase made of clothes</b></p>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Prasent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
             <h5><u>Materials Needed:</u></h5>
             <li>A button up shirt</li>
             <li>A pillow</li>
@@ -150,22 +144,56 @@ session_start();
       <!-- Second Photo Grid-->
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
-          <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
+          <img src="/IdeasPages/IdeaPageImages/plasticBottlePlant.PNG" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion4')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
-            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Present tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>Empty plastic bottle (any size)</li>
+            <li>Masking tape</li>
+            <li>Googly eyes</li>
+            <li>Fine sandpaper (300+ Grit)</li>
+            <li>Recycled buttons or other decorations</li>
+            <li>Glue stick or hot glue (low setting)</li>
+            <li>Plant and soil</li>
+            <li>Acrylic paint and/or spray paint for plastic
+                In green, blue or white (depending on craft)</li>
+            <li>Paint brush</li>
+            <li>Chalk marker or permanent marker in black (and pink for Peekaboo Cat)</li>
+            <li>Utility knife and scissors</li>
+            <li>Glue</li>
+                </li>
+            <li>Scissors</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
+            <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
+            <p>3.&nbsp With scissors roughly cut out your shapes.</p>
+            <p>4.&nbsp After the top of the bottle is removed go back around and clean up the edges.</p>
+            <p>5.&nbsp Lightly sand the outside of the bottle to roughen the surface. This will help the paint to stick. Wipe clean (make sure bottle is clean and dry).</p>
+            <p>6.&nbsp Paint the bottle with chosen shade of acrylic paint, this will take several coats. Tip: use a hair dryer to speed drying between coats. Spray paint made for plastic can be used if you already have a can at home.</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
           <img src="/IdeasPages/IdeaPageImages/ReuseBottleSprinkler.jpg" alt="Reuse Bottle as sprinkler" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
-            <p><b>Lorem Ipsum</b></p>
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion5')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id='accordion5'>
+            <p><b>Plastic Bottle Sprinkler</b></p>
             <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A plastic bottle</li>
+            <li>A drill</li>
+            <li>Duct tape</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
+            <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
+            
           </div>
         </div>
         <div class="w3-third w3-container">
           <img src="/IdeasPages/IdeaPageImages/ReusePillBottle.jpg" alt="Reusing Pill Bottle" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion6')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion6">
             <p><b>Lorem Ipsum</b></p>
             <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
           </div>

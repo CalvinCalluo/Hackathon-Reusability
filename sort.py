@@ -19,10 +19,6 @@ class project:
 
 projects = []
 
-#projects.append(project(5,['bottle'], 100))
-#projects.append(project(2,['bottle', 'mask'], 10))
-#projects.append(project(5,['mask'], 140)) 
-#print(projects)
 def sort(sortType):
     if(sortType == 'difficulty'):
         projects.sort(key = diffSort)

@@ -139,15 +139,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form action="createideaconnect.php" method="POST">
       <div class="w3-section">
         <label>Idea Title</label>
-        <input class="w3-input w3-border" type="text" name="Title" required>
+        <input class="w3-input w3-border" type="text" name="Title">
       </div>
       <div class="w3-section">
         <label>Description</label>
-        <input class="w3-input w3-border" type="text" name="Description" required>
+        <input class="w3-input w3-border" type="text" name="Description">
       </div>
       <div class="w3-section">
         <label>Materials Required</label>
-        <input class="w3-input w3-border" type="text" name="Materials" required>
+        <input class="w3-input w3-border" type="text" name="Materials">
       </div>
       <div class="w3-section">
         <label>Upload An Image Here</label>

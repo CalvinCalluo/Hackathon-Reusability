@@ -119,8 +119,8 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion3')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion3">
             <p><b>Pillowcase made of clothes</b></p>
-            <p>An innovative way to reuse your old clothes for a better night's sleep.
-            </p>
+            <p>An innovative way to reuse your old clothes for a better night's sleep.</p>
+            <a href="/IdeasPages/htmlideapages/pillowcase.html" class="w3-button w3-right">More details</a>
             
           </div>
         </div>

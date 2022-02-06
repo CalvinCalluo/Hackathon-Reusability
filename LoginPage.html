@@ -75,23 +75,25 @@
       </h3>
       <div style="margin-top: 2%">
         <form action="/action_page.php" target="_blank">
-          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="25%"></p>
-          <p class = "all-centered"><input class="w3-border" id="psw1" type="password" placeholder="Password" required name="Password" size = "25%"></p>
+          <p class = "all-centered"><input class="w3-border" type="text" placeholder="Username/Email" required name="Username/Email" size="25%" id="email"></p>
+          <p class = "all-centered"><input class="w3-border" id="psw1" type="password" placeholder="Password" required name="Password" size = "25%" id="password"></p>
           <p class = "all-centered" style = "font-size: 50%"><input type="checkbox" onclick="showPassword()">&#160&#160Show Password</p>
           <p class = "all-centered">
-            <button class="w3-button w3-black" type="submit">
+            <button class="w3-button w3-black" type="submit" id="quickstart-sign-in">
               <i class="fa fa-paper-plane"></i> Log In
             </button>
           </p>
         </form>
          <p class = "all-centered" style = "font-size: 50%">
-          Don't have an account?&#160&#160
-          <a href="https://reusabilitytest.herokuapp.com/SignUp.html">
-            Sign Up
-          </a>
-        </p>
+            Don't have an account?&#160&#160
+            <a href="SignUp.html">
+              Sign Up
+            </a>
+          </p>
       </div>
     </div>
+
+    <script src="/Javascript/index.js"></script>
   </body>
 </html>
 <script>

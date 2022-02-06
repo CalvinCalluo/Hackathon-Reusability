@@ -15,19 +15,17 @@ $passcode = $_POST["Password"];
 echo 'email: '.$email.'<br>';
 echo 'password: '.$passcode.'<br>';
 
-$result = $pdo->query('SELECT username, password FROM logininfo WHERE username = :username AND password = :password');
-$result->bindValue('username', $email);
-$result->bindValue('password', $passcode);
+$result = $pdo->prepare('SELECT * FROM logininfo WHERE username = :username AND password = :password');
+$result->execute(['username'=>$email, 'password'=>$passcode]);
+$row = $result->fetch(PDO::FETCH_ASSOC);
 if ($result->rowCount() > 0){
-    $row = $result->fetch(PDO::FETCH_ASSOC);
     echo $email.'  Real Username: '.$row['username'].'<br>';
     echo $passcode.'   Real Password   '.$row['password'].'<br>';
     if($row['username'] == $email && $row['password'] == $passcode){
       // Correct username and password, logged in	
       header('Location: IdeasPages/IdeasPage.php');
       die();
-        
-      echo 'correct';
+
     }
       else {
       // Incorrect password

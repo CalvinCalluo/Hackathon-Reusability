@@ -144,7 +144,7 @@ session_start();
       <!-- Second Photo Grid-->
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
-          <img src="/IdeasPages/IdeaPageImages/ReuseWaterBottles.jpg" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
+          <img src="/IdeasPages/IdeaPageImages/plasticBottlePlant.PNG" alt="Reuse water bottle for planting" style="width:100%" class="w3-hover-opacity projectidea">
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion4')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
@@ -187,10 +187,7 @@ session_start();
             <h5><u>Steps</u></h5>
             <p>1.&nbsp Use the masking tape to tape a line around the bottle. This will give you a straight line to cut.</p>
             <p>2.&nbsp Pierce a hole in the bottle with a utility knife. Tip: keep the blade retracted, only exposing the tip for more control.</p>
-            <p>3.&nbsp With scissors roughly cut out your shapes.</p>
-            <p>4.&nbsp After the top of the bottle is removed go back around and clean up the edges.</p>
-            <p>5.&nbsp Lightly sand the outside of the bottle to roughen the surface. This will help the paint to stick. Wipe clean (make sure bottle is clean and dry).</p>
-            <p>6.&nbsp Paint the bottle with chosen shade of acrylic paint, this will take several coats. Tip: use a hair dryer to speed drying between coats. Spray paint made for plastic can be used if you already have a can at home.</p>
+            
           </div>
         </div>
         <div class="w3-third w3-container">

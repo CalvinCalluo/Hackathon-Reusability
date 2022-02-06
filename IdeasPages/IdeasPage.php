@@ -175,7 +175,7 @@ session_start();
             <p>Create Your Own Projects Here!</p>
             <hr>
             <!-- Create Idea Section -->
-            <div class="w3-container w3-padding-small w3-light-gray">
+            <div class="w3-container w3-light-gray">
               <hr class="w3-opacity">
               <form action="createideaconnect.php" method="POST">
                 <div class="w3-section">

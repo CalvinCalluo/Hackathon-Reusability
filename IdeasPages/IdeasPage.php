@@ -148,7 +148,7 @@ session_start();
           <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion4')"> Click to try this out!</button>
           <div class="w3-container w3-white w3-hide" id="accordion4">
             <p><b>Plastic bottle planters</b></p>
-            <p>Present tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>A fun, creative way to reuse your plastic water bottles! Don't throw them away, use them for plants!.</p>
             <a href="/IdeasPages/htmlideapages/PlasticBottlePlanters.html" class="w3-button w3-right">More details</a>
           </div>
         </div>

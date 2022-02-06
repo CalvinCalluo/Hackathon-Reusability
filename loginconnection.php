@@ -29,7 +29,7 @@ if(!isset($_SESSION["loggedIn"])){
       $_SESSION["loggedIn"] = true;
       $_SESSION["username"] = $email;
       // Correct username and password, logged in	
-      header('Location: IdeasPages/IdeasPage.php');
+      header('Location: IdeasPages/IdeasPage.html');
       die();
       //echo 'correct';
     }

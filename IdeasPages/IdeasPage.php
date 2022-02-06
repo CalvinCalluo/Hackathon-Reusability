@@ -104,23 +104,45 @@ session_start();
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
           <img src="/IdeasPages/IdeaPageImages/ReuseFoodContainer.jpg" alt="Reuse Food Containers" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion1')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion1">
             <p><b>Reusing Food Containers</b></p>
-            <p>Eco Friendly.</p>
+            <p>An eco-friendly way to upcycle your food containers!.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A single food container</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Grab a food container and wash the insides with soap thoroughly</p>
+            <p>2.&nbsp Put anything inside!</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
           <img src="/IdeasPages/IdeaPageImages/CandleJars.jpg" alt="Use candle jars to hold things" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion2')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion2">
             <p><b>Reuse Candle Jars</b></p>
             <p>Eco Friendly</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A single candle jar</li>
+            <li>A Knife or Spoon</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Grab a candle jar and take out the wax inside that's left with a spoon or knife</p>
+            <p>2.&nbsp Put anything inside!</p>
           </div>
         </div>
         <div class="w3-third w3-container">
           <img src="/IdeasPages/IdeaPageImages/ReuseClothesPillow.jpg" alt="Reuse clothes for pillowcase" style="width:100%" class="w3-hover-opacity projectidea">
-          <div class="w3-container w3-white">
-            <p><b>Idea3</b></p>
+          <button class="w3-button w3-block w3-white" onclick="openAccordion('accordion3')"> Click to try this out!</button>
+          <div class="w3-container w3-white w3-hide" id="accordion3">
+            <p><b>Pillowcase made of clothes</b></p>
             <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <h5><u>Materials Needed:</u></h5>
+            <li>A button up shirt</li>
+            <li>A pillow</li>
+            <li>A thread</li>
+            <h5><u>Steps</u></h5>
+            <p>1.&nbsp Measure the shirt. The front and back of the pillow cover need to be one inch larger than the pillow form. For example, with a 14-inch square pillow, the fabric should be 15 inches x 15 inches.</p>
+            <p>2.&nbsp Cut two identical pieces of fabric with what you have measured</p>
+            <p>3.&nbsp Sew them together with thread and insert the pillow between them!</p>
           </div>
         </div>
       </div>
@@ -340,6 +362,15 @@ session_start();
   function w3_close() {
       document.getElementById("mySidebar").style.display = "none";
       document.getElementById("myOverlay").style.display = "none";
+  }
+
+  function openAccordion(id){
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
   }
   </script>
 </html>

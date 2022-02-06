@@ -28,8 +28,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href = "../home.html" class="w3-button" title="Return to Home Page">
     <img src="IdeaPageImages/EnvironmentLogo.jpg" style="width:45%;" class="w3-round"></a><br><br>
     <?php
-      echo '<h4 id="welcome-email"><b>'.$_SESSION['username'].'</b></h4>';
-      echo '<p class="w3-text-grey" id="welcome-username">Welcome, '.$_SESSION['username'].'NAME</p>';
+      if(isset($_SESSION['loggedIn'])){
+        echo '<h4 id="welcome-email"><b>'.$_SESSION['username'].'</b></h4>';
+        echo '<p class="w3-text-grey" id="welcome-username">Welcome, '.$_SESSION['username'].'NAME</p>';
+      }
+      
       
       /*
       else if($_SESSION['loggedIn'==false]){

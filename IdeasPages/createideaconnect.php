@@ -18,6 +18,6 @@ $filename = $_POST["Filename"];
 
 $sql = $pdo->prepare("INSERT INTO ideainfo (title, description, materials, filename) VALUES (:title, :description, :materials, :filename)");
 $sql->execute(['title' => $title, 'description' => $description, 'materials' => $materials, 'filename' => $filename]);
-echo("insertation successful")
+
 
 ?>
